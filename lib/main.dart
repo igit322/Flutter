@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter 퀴즈앱',
-        // theme: ThemeData(
-        //   primarySwatch: Colors.blueGrey,
-        // ),
+        theme: ThemeData(
+          primarySwatch: Colors.deepPurple,
+        ),
         home: HomeScreen());
   }
 }
